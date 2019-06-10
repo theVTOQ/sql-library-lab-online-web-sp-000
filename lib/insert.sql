@@ -1,5 +1,5 @@
-INSERT INTO series (name) VALUES ("ASOIF");
-INSERT INTO series (name) VALUES ("LOTR");
+INSERT INTO series (title) VALUES ("ASOIF");
+INSERT INTO series (title) VALUES ("LOTR");
 
 INSERT INTO subgenres (name) VALUES ("drama");
 INSERT INTO subgenres (name) VALUES ("comedy");
@@ -25,32 +25,24 @@ INSERT INTO characters (name, author_id, series_id) VALUES ("Legolas", 2, 2);
 INSERT INTO characters (name, author_id, series_id) VALUES ("Frodo", 2, 2);
 INSERT INTO characters (name, author_id, series_id) VALUES ("Sam", 2, 2);
 
-INSERT INTO characters_books (character_id, book_id) VALUES (1, 1);
-INSERT INTO characters_books (character_id, book_id) VALUES (1, 2);
-INSERT INTO characters_books (character_id, book_id) VALUES (1, 3);
-INSERT INTO characters_books (character_id, book_id) VALUES (1, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (1, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (1, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (1, 3);
 
-INSERT INTO characters_books (character_id, book_id) VALUES (2, 1);
-INSERT INTO characters_books (character_id, book_id) VALUES (2, 2);
-INSERT INTO characters_books (character_id, book_id) VALUES (2, 3);
-INSERT INTO characters_books (character_id, book_id) VALUES (2, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 3);
 
-INSERT INTO characters_books (character_id, book_id) VALUES (3, 3);
-INSERT INTO characters_books (character_id, book_id) VALUES (3, 4);
-INSERT INTO characters_books (character_id, book_id) VALUES (4, 3);
-INSERT INTO characters_books (character_id, book_id) VALUES (4, 4);
+INSERT INTO character_books (character_id, book_id) VALUES (3, 3);
+INSERT INTO character_books (character_id, book_id) VALUES (4, 3);
 
-INSERT INTO characters_books (character_id, book_id) VALUES (5, 5);
-INSERT INTO characters_books (character_id, book_id) VALUES (5, 6);
-INSERT INTO characters_books (character_id, book_id) VALUES (5, 7);
-INSERT INTO characters_books (character_id, book_id) VALUES (5, 8);
+INSERT INTO character_books (character_id, book_id) VALUES (5, 5);
+INSERT INTO character_books (character_id, book_id) VALUES (5, 6);
+INSERT INTO character_books (character_id, book_id) VALUES (5, 7);
 
-INSERT INTO characters_books (character_id, book_id) VALUES (6, 5);
-INSERT INTO characters_books (character_id, book_id) VALUES (6, 6);
-INSERT INTO characters_books (character_id, book_id) VALUES (6, 7);
-INSERT INTO characters_books (character_id, book_id) VALUES (6, 8);
+INSERT INTO character_books (character_id, book_id) VALUES (6, 5);
+INSERT INTO character_books (character_id, book_id) VALUES (6, 6);
+INSERT INTO character_books (character_id, book_id) VALUES (6, 7);
 
-INSERT INTO characters_books (character_id, book_id) VALUES (7, 7);
-INSERT INTO characters_books (character_id, book_id) VALUES (7, 8);
-INSERT INTO characters_books (character_id, book_id) VALUES (8, 7);
-INSERT INTO characters_books (character_id, book_id) VALUES (8, 8);
+INSERT INTO character_books (character_id, book_id) VALUES (7, 7);
+INSERT INTO character_books (character_id, book_id) VALUES (8, 7);
